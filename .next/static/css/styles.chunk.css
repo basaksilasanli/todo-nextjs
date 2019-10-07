@@ -1,0 +1,96 @@
+body {
+  font: 14px Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #d6d6d6;
+  min-width: 200px;
+  max-width: 650px;
+  margin: 0 auto;
+  font-weight: 300; }
+
+.container {
+  padding: 10px;
+  background: #fff;
+  margin: 130px 0 40px 0;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1); }
+
+.header {
+  position: absolute;
+  top: -80px;
+  width: 100%;
+  font-size: 67px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(82, 8, 42, 0.88); }
+
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  color: #727070;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+  background: #fff;
+  border: solid 1px #ffdfb861; }
+  .note label {
+    margin-left: 6px; }
+  .note:hover {
+    transform: scale(1);
+    background-color: #ffdfb861; }
+  .note.completed label {
+    color: #d9d9d9;
+    text-decoration: line-through; }
+
+.button {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #e2dcdc;
+  cursor: pointer;
+  border: none;
+  background-color: transparent; }
+  .button:hover {
+    transform: scale(1.05); }
+
+.box {
+  display: flex;
+  align-items: center;
+  padding: 0 20px; }
+
+.input {
+  position: relative;
+  color: #727070;
+  margin: 0;
+  width: 100%;
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 12px;
+  box-sizing: border-box;
+  border: none;
+  background: rgba(0, 0, 0, 0.003); }
+  .input:focus {
+    outline: none; }
+  .input::placeholder {
+    color: #e6e6e6; }
+
+.footer {
+  color: #777;
+  padding: 10px 15px;
+  height: 10px;
+  text-align: center;
+  border-top: 1px solid #e6e6e6; }
+  .footer:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 8px 0 -3px #f6f6f6, 0 9px 1px -3px rgba(0, 0, 0, 0.2), 0 16px 0 -6px #f6f6f6, 0 17px 2px -6px rgba(0, 0, 0, 0.2); }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

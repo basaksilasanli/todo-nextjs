@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const api = 'http://localhost:4000/todos';","map":{"version":3,"sources":["/Users/clevel-air/todo-next/static/config-variable.js"],"names":["api"],"mappings":"AAAA,OAAO,MAAMA,GAAG,GAAG,6BAAZ","sourcesContent":["export const api = 'http://localhost:4000/todos';\n\n"]},"metadata":{},"sourceType":"module"}
