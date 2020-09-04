@@ -18,7 +18,7 @@
     "axios": "^0.19.0",
     "json-server": "^0.15.1",
     "next": "^9.0.8-canary.4",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },
